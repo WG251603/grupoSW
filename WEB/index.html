@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Comida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .product{
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            
+        }
+        td{
+            width: 25%;
+            height: 45%;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicias de la Casa</h1>
+        <nav>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    
+    <div class="container" id="productos">
+        <h2>Nuestros Productos</h2>
+        <table border="1">
+            <tr>
+                <td>
+        <div class="product">
+            <img src="https://images.ctfassets.net/xrq0idneq0ob/6LW0vIpqgEhdtLomHKrVHH/49a0d9775bd8481236dd5fde62860108/cyber_hut_doble_maverick_v3.jpg?fm=webp&q=80" alt="Producto 1">
+            <h3>Pizza Margherita</h3>
+            <p>Deliciosa pizza con tomate, mozzarella y albahaca fresca.</p>
+            <p>Precio: $10.00</p>
+            <button>Agregar al carrito</button>
+        </div>
+    </td>
+    <td>
+        <div class="product">
+            <img src="https://www.burgerking.pe/Multimedia/productos/detalle/WHOPPER_202403251635564160.avif" alt="Producto 2">
+            <h3>Burguer Clásica</h3>
+            <p>Hamburguesa jugosa con lechuga, tomate y cebolla.</p>
+            <p>Precio: $8.00</p>
+            <button>Agregar al carrito</button>
+        </div>
+    </td>
+    <td>
+        <div class="product">
+            <img src="https://www.mexicoenmicocina.com/wp-content/uploads/2017/05/2-receta-1024x683.jpg" alt="Producto 3">
+            <h3>Taco al Pastor</h3>
+            <p>Auténticos tacos con carne adobada y piña.</p>
+            <p>Precio: $3.00</p>
+            <button>Agregar al carrito</button>
+        </div>
+    </td>
+    </div>
+   
+    </tr>
+    </table>
+
+    <footer id="contacto">
+        <p>Contacto: info@deliciasdelacasa.com | Teléfono: 555-1234</p>
+        <p>&copy; 2024 Ing. de SW con IA</p>
+    </footer>
+</body>
+</html>
